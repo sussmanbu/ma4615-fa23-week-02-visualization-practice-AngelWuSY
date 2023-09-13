@@ -42,13 +42,13 @@ covid_data_count |>
   ggplot(aes(x = date, y = Deaths, color = race))+geom_smooth()
 ```
 
-I saw that White as pink line is high towars other races. 
+I saw that White as pink line is high towards other races, which mean white have highest number of death toward other race in this dataset.
 
 2. Are there any conclusions you can draw?
-White is keeping a higher number of death toward the overall race.
+White is keeping a highest number of death toward the overall race since april in this data.
 
 3. What were you not able to do due to not having the R knowledge?
-make a prediction model of future death rate for each race.
+make a prediction model for people's death over cases and analyze is covid-19 becoming less harmful or more harmful to human
 
 4. What other data would be useful to better understand this data?
-Age of these people who dead.
+overall population of each race that can help us understand the death rate and see if white also have a high death rate since some race shows low in the graph may due to small population in their race 
